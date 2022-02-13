@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.rest.RestAssured.RestTest">
+      <class name="com.rest.RestAssured.HamcrestAssertionsOnExtractedResponse">
         <methods>
-          <include name="validateGetStatus"/>
+          <include name="extractResponse"/>
         </methods>
-      </class> <!-- com.rest.RestAssured.RestTest -->
+      </class> <!-- com.rest.RestAssured.HamcrestAssertionsOnExtractedResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

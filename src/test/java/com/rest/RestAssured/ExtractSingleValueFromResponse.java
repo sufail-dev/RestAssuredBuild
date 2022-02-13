@@ -25,7 +25,7 @@ public class ExtractSingleValueFromResponse {
 		.extract().response().asString();// Extracting response
 		//method1
 		//creating JsonPath Instance
-//		JsonPath jsonpath=new JsonPath(res.asString());
+//	JsonPath jsonpath=new JsonPath(res.asString());
 //		System.out.println("Response= "+jsonpath.getString("workspaces[0].name"));
 		//method2
 		//System.out.println("Response= "+res.path("workspaces[0].name"));//path is used to get a value from response body using JsonPath or xmlPath
