@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-17T17:19:56Z" name="Default suite" finished-at="2022-02-17T17:20:03Z" duration-ms="7019">
+  <suite started-at="2022-02-23T16:30:56Z" name="Default suite" finished-at="2022-02-23T16:31:05Z" duration-ms="9388">
     <groups>
     </groups>
-    <test started-at="2022-02-17T17:19:56Z" name="Default test" finished-at="2022-02-17T17:20:03Z" duration-ms="7019">
-      <class name="com.rest.handlingHeaders.MockServerMultipleHeadersInRequest">
-        <test-method signature="multipleHeaderProcessing()[pri:0, instance:com.rest.handlingHeaders.MockServerMultipleHeadersInRequest@f79e]" started-at="2022-02-17T22:49:56Z" name="multipleHeaderProcessing" finished-at="2022-02-17T22:50:03Z" duration-ms="6956" status="PASS">
+    <test started-at="2022-02-23T16:30:56Z" name="Default test" finished-at="2022-02-23T16:31:05Z" duration-ms="9388">
+      <class name="com.rest.requestSpecification.IntroRequestSpecification">
+        <test-method signature="responseLoging()[pri:0, instance:com.rest.requestSpecification.IntroRequestSpecification@f79e]" started-at="2022-02-23T22:00:56Z" name="responseLoging" finished-at="2022-02-23T22:01:05Z" duration-ms="9339" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleHeaderProcessing -->
-      </class> <!-- com.rest.handlingHeaders.MockServerMultipleHeadersInRequest -->
+        </test-method> <!-- responseLoging -->
+      </class> <!-- com.rest.requestSpecification.IntroRequestSpecification -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
